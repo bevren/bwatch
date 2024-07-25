@@ -1,1 +1,1 @@
-# Smartwatch using ESP32
+# ESP32 Smartwatch using MicroPython
