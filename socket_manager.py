@@ -135,7 +135,6 @@ class TCPClient:
             except ValueError as e:
                 print(e)
                 t = { "error" : "la oglum olmadi" }
-                a = json.dumps(t).encode()
                 self.connection.write(b'{ "error" : "la oglum olmadi" }')
                 return
             
